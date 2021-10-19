@@ -19,6 +19,9 @@ using Emgu.CV.Structure;
 using System.Drawing;
 using System.Windows.Threading;
 using System.Windows.Interop;
+using Emgu.CV.CvEnum;
+using System.Threading;
+using Emgu.CV.Util;
 
 namespace wykrywanie_otworkow_test
 {
@@ -167,15 +170,97 @@ namespace wykrywanie_otworkow_test
             //bitmap.StreamSource = new stre(selectedFileName);
             //bitmap.EndInit();
 
-            using (Image<Xyz, byte> frame = _capture.QueryFrame().ToImage<Xyz, byte>())
+            using (Image<Hsv, byte> frame = _capture.QueryFrame().ToImage<Hsv, byte>())
+            using (UMat gray = new UMat())
+            using (UMat cannyEdges = new UMat())
+            using (Mat triangleRectangleImage = new Mat(frame.Size, DepthType.Cv8U, 3)) //image to draw triangles and rectangles on
+            using (Mat circleImage = new Mat(frame.Size, DepthType.Cv8U, 3)) //image to draw circles on
+            using (Mat lineImage = new Mat(frame.Size, DepthType.Cv8U, 3)) //image to drtaw lines on
             {
+                //  CvInvoke.CvtColor(frame, gray, ColorConversion.Rgb2Gray);
+                //        CvInvoke.GaussianBlur(gray, gray, new System.Drawing.Size(3, 3), 2, 2);
+                Hsv lowerLimit = new Hsv(0, 159, 94);
+                //      Hsv upperLimit = new Hsv(120, 255, 255); w ciemno, nawet ok
+                Hsv upperLimit = new Hsv(170, 255, 242);
+
+
+
+                Image<Gray, byte> imageHSVDest = frame.InRange(lowerLimit, upperLimit);               
+                CvInvoke.GaussianBlur(imageHSVDest, imageHSVDest, new System.Drawing.Size(3, 3), 2, 2);
+
+                Image<Gray, byte> imageHSVDest_revert = imageHSVDest.Not();
+
+
+
+
+
+                //   CvInvoke.CvtColor(imageHSVDest, gray, ColorConversion.Rgb2Gray);
+
+
+
+                    const double dp = 1;
+                    const double minDist = 50;
+                    const double param1 = 35;
+                    const double param2 = 25;
+                    const int minRadius = 1;
+                    const int maxRadius = 50;
+
+
+                    #region circle detection
+                    double cannyThreshold = 180.0;
+                    double circleAccumulatorThreshold = 120;
+
+
+           //     Emgu.CV.Util.VectorOfVectorOfPoint contours = new Emgu.CV.Util.VectorOfVectorOfPoint();
+           //     Mat hier = new Mat();
+
+           //     CvInvoke.FindContours(imageHSVDest, contours, hier, Emgu.CV.CvEnum.RetrType.List, Emgu.CV.CvEnum.ChainApproxMethod.ChainApproxNone);
+
+                //  CvInvoke.DrawContours(imageHSVDest, contours, 0, new MCvScalar(55, 55, 55), 2);
+            //    imageHSVDest = imageHSVDest.Canny(100,1);
+
+                CircleF[] circles = CvInvoke.HoughCircles(imageHSVDest, HoughModes.Gradient,dp, minDist, param1, param2, minRadius, maxRadius);
+
+
+
+                    #endregion
+
+                    #region draw circles
+                    circleImage.SetTo(new MCvScalar(0));
+                    foreach (CircleF circle in circles)
+                    {
+                        CvInvoke.Circle(frame, System.Drawing.Point.Round(circle.Center), (int)circle.Radius,
+                        new Bgr(System.Drawing.Color.Blue).MCvScalar, 2);
+                       // MessageBox.Show("znaleziono okrag");
+                    }
+
+
+
+                //Drawing a light gray frame around the image
+                CvInvoke.Rectangle(frame,
+                        new System.Drawing.Rectangle(System.Drawing.Point.Empty, new System.Drawing.Size(circleImage.Width - 1, circleImage.Height - 1)),
+                        new MCvScalar(120, 120, 120));
+                    //Draw the labels
+                    CvInvoke.PutText(frame, "Circles", new System.Drawing.Point(20, 20), FontFace.HersheyDuplex, 0.5,
+                        new MCvScalar(120, 120, 120));
+                    #endregion
+
+
+
+
+
+
+
+
+
                 if (frame != null)
                 {
 
                     using (var stream = new MemoryStream())
                     {
-                        // My way to display frame 
-                        frame.AsBitmap().Save(stream, ImageFormat.Bmp);
+                        // My way to display frame
+                        imageHSVDest.ToBitmap().Save(stream, ImageFormat.Bmp);
+                        //    frame.AsBitmap().Save(stream, ImageFormat.Bmp);
 
                         BitmapImage bitmap = new BitmapImage();
                         bitmap.BeginInit();
@@ -183,6 +268,28 @@ namespace wykrywanie_otworkow_test
                         bitmap.EndInit();
 
                         image_stream.Source = bitmap;
+                    }
+
+
+                }
+
+
+                if (circleImage != null)
+                {
+
+                    using (var stream2 = new MemoryStream())
+                    {
+                        // My way to display frame
+                        frame.ToBitmap().Save(stream2, ImageFormat.Bmp);
+                        //    frame.AsBitmap().Save(stream, ImageFormat.Bmp);
+
+                        BitmapImage bitmap2 = new BitmapImage();
+                        bitmap2.BeginInit();
+                        bitmap2.StreamSource = new MemoryStream(stream2.ToArray());
+                        bitmap2.EndInit();
+
+                        image_capture.Source = bitmap2;
+                       // Thread.Sleep(5000);
                     }
 
 
