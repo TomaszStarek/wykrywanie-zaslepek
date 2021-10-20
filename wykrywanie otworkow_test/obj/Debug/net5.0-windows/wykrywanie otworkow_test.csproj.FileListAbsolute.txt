@@ -45,3 +45,5 @@ C:\Users\2281209\source\repos\wykrywanie otworkow_test\wykrywanie otworkow_test\
 C:\Users\2281209\source\repos\wykrywanie otworkow_test\wykrywanie otworkow_test\obj\Debug\net5.0-windows\ref\wykrywanie otworkow_test.dll
 C:\Users\2281209\source\repos\wykrywanie otworkow_test\wykrywanie otworkow_test\obj\Debug\net5.0-windows\wykrywanie otworkow_test.pdb
 C:\Users\2281209\source\repos\wykrywanie otworkow_test\wykrywanie otworkow_test\obj\Debug\net5.0-windows\wykrywanie otworkow_test.genruntimeconfig.cache
+C:\Users\2281209\source\repos\wykrywanie otworkow_test\wykrywanie otworkow_test\obj\Debug\net5.0-windows\Window1.g.cs
+C:\Users\2281209\source\repos\wykrywanie otworkow_test\wykrywanie otworkow_test\obj\Debug\net5.0-windows\Window1.baml

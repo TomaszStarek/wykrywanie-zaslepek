@@ -139,25 +139,29 @@ namespace wykrywanie_otworkow_test
         bool _streaming;
         private void btn_stream_Click(object sender, RoutedEventArgs e)
         {
+            Window1 win1 = new Window1();
+            win1.Show();
 
+            MessageBox.Show(win1.label_PIS.Content.ToString());
+            
 
-            if (!_streaming)
-            {
-                ComponentDispatcher.ThreadIdle += streaming;
-                //System.Windows.Interop.ComponentDispatcher.ThreadIdle += (_, __) =>
-                //{
-                //    streaming(this, EventArgs.Empty);
-                //};
-            }
-            else
-            {
-                ComponentDispatcher.ThreadIdle -= streaming;
-                //System.Windows.Interop.ComponentDispatcher.ThreadIdle -= (_, __) =>
-                //{
-                //    streaming(this, EventArgs.Empty);
-                //};
-            }
-            _streaming = !_streaming;
+            ////////////////if (!_streaming)
+            ////////////////{
+            ////////////////    ComponentDispatcher.ThreadIdle += streaming;
+            ////////////////    //System.Windows.Interop.ComponentDispatcher.ThreadIdle += (_, __) =>
+            ////////////////    //{
+            ////////////////    //    streaming(this, EventArgs.Empty);
+            ////////////////    //};
+            ////////////////}
+            ////////////////else
+            ////////////////{
+            ////////////////    ComponentDispatcher.ThreadIdle -= streaming;
+            ////////////////    //System.Windows.Interop.ComponentDispatcher.ThreadIdle -= (_, __) =>
+            ////////////////    //{
+            ////////////////    //    streaming(this, EventArgs.Empty);
+            ////////////////    //};
+            ////////////////}
+            ////////////////_streaming = !_streaming;
         }
 
 
