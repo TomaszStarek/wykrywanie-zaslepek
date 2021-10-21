@@ -10,19 +10,22 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="3*"/>
-            <RowDefinition Height="1.2*"/>
+            <RowDefinition Height="0.3*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="button" Content="Button" Height="66" Margin="435,37,33,44" Width="132" Click="button_Click" Grid.Column="1" Grid.Row="2" d:LayoutOverrides="VerticalAlignment"/>
+        <Button x:Name="button" Content="Button" Margin="468,0,0,0" Width="132" Click="button_Click" Grid.Row="2" HorizontalAlignment="Left"/>
         <Image x:Name="image_capture" Margin="1,1,1,1" d:LayoutOverrides="HorizontalAlignment" Grid.Column="1"  Grid.Row="1"  />
-        <Button x:Name="btn_steram" Content="steram start" Margin="74,55,144,54" Click="btn_stream_Click" d:LayoutOverrides="HorizontalAlignment, VerticalAlignment" Grid.Row="2"/>
+        <Button x:Name="btn_parametry" Content="Parametry" Click="btn_stream_Click" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center" Height="51" Width="105" Background="#FFEC1717"/>
         <Image x:Name="image_stream" Margin="1,1,1,1" Grid.ColumnSpan="1" Grid.Row="1"/>
         <Label x:Name="Podaj_barkode" Content="Zeskanuj numer seryjny" Grid.Row="0" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="34,26,0,0" Width="342" FontSize="24" />
         <TextBox x:Name="textBox" Margin="32,0,128,20" Text="" TextWrapping="Wrap" d:LayoutOverrides="HorizontalAlignment" Grid.Row="0" VerticalAlignment="Bottom" Height="41" KeyDown="OnKeyDownHandler" FontSize="20"/>
-        <Label x:Name="label_state" Content="1.Zeskanuj produkt" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="107" Width="472" FontSize="30"/>
+        <Label x:Name="label_state" Content="1.Zeskanuj produkt" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" MinWidth="500" MinHeight="120"/>
+        <Label x:Name="label" Content="Timer" Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Visibility="Hidden"/>
+        <Label x:Name="l_n_wykryto_lewa" Content="Wykryto lewą zaślepkę" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Center" FontSize="18" Background="#FF86EE30" Visibility="Hidden"/>
+        <Label x:Name="l_n_wykryto_prawa" Content="Wykryto prawą zaślepkę" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" FontSize="18" Margin="0,0,5,0" d:LayoutOverrides="Width" HorizontalAlignment="Right" Background="#FF86EE30" Visibility="Hidden"/>
 
 
 
