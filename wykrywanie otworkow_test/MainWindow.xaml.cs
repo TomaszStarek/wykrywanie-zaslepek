@@ -32,6 +32,12 @@ namespace wykrywanie_otworkow_test
     {
         //   VideoCapture capture = new VideoCapture(0);
 
+
+
+
+
+
+
         VideoCapture _capture;
         private Mat _frame;
         string barcode = "";
@@ -139,6 +145,15 @@ namespace wykrywanie_otworkow_test
         bool _streaming;
         private void btn_stream_Click(object sender, RoutedEventArgs e)
         {
+
+            foreach (Window window in Application.Current.Windows)
+            {
+                if (window.GetType() == typeof(Window1))
+                {
+                    window.Close();
+                }
+            }
+
             Window1 win1 = new Window1();
             win1.Show();
 
@@ -201,14 +216,13 @@ namespace wykrywanie_otworkow_test
                 //////////Hsv lowerLimit = new Hsv(0, 163, 94); pierwsze w miarę dobre
                 //////////Hsv upperLimit = new Hsv(160, 255, 242);
 
-            //    double lower1, lower2, lower3;
-            //    double high1, high2, high3;
+                //    double lower1, lower2, lower3;
+                //    double high1, high2, high3;
+                //display.labelparam_convert(label_low1)
 
 
-
-                Hsv lowerLimit = new Hsv(display.labelparam_convert(label_low1), display.labelparam_convert(label_low2), display.labelparam_convert(label_low3));
-
-                Hsv upperLimit = new Hsv(display.labelparam_convert(label_h1), display.labelparam_convert(label_h2), display.labelparam_convert(label_h3));
+                Hsv lowerLimit = new Hsv(display.lower_H, display.lower_S, display.lower_V);
+                Hsv upperLimit = new Hsv(display.high_H, display.high_S, display.high_V);
 
 
 
@@ -225,13 +239,6 @@ namespace wykrywanie_otworkow_test
 
 
 
-                const double dp = 1;
-                const double minDist = 50;
-                const double param1 = 39;  //37
-                const double param2 = 31;  //29
-                const int minRadius = 13;
-                const int maxRadius = 19;
-
 
                 #region circle detection
                 double cannyThreshold = 180.0;
@@ -246,7 +253,7 @@ namespace wykrywanie_otworkow_test
                 //  CvInvoke.DrawContours(imageHSVDest, contours, 0, new MCvScalar(55, 55, 55), 2);
                 //    imageHSVDest = imageHSVDest.Canny(100,1);
 
-                CircleF[] circles = CvInvoke.HoughCircles(imageHSVDest, HoughModes.Gradient, dp, minDist, param1, param2, minRadius, maxRadius);
+                CircleF[] circles = CvInvoke.HoughCircles(imageHSVDest, HoughModes.Gradient, display.dp, display.minDist, display.param1, display.param2, display.minRadius, display.maxRadius);
                 #endregion
 
                 #region draw circles
@@ -395,56 +402,6 @@ namespace wykrywanie_otworkow_test
 
 
 
-        private void low1_TextChanged(object sender, TextChangedEventArgs e)
-        {
 
-        }
-
-        private void low3_KeyDown(object sender, KeyEventArgs e)
-        {
-
-        }
-
-        private void param_KeyDown(object sender, KeyEventArgs e)
-        {
-            TextBox textbox_selected = (TextBox)sender;
-
-            if (e.Key == Key.Return)
-            {
-                low1.Text = textbox_selected.Text;
-
-
-                if(sender == low1)
-                {                    
-                    Dispatcher.Invoke(new Action(() => label_low1.Content = textbox_selected.Text));
-                }
-                else if (sender == low2)
-                {
-                    Dispatcher.Invoke(new Action(() => label_low2.Content = textbox_selected.Text));
-                }
-                else if (sender == low3)
-                {
-                    Dispatcher.Invoke(new Action(() => label_low3.Content = textbox_selected.Text));
-                }
-
-
-                else if (sender == high1)
-                {
-                    Dispatcher.Invoke(new Action(() => label_h1.Content = textbox_selected.Text));
-                }
-                else if (sender == high2)
-                {
-                    Dispatcher.Invoke(new Action(() => label_h2.Content = textbox_selected.Text));
-                }
-                else if (sender == high3)
-                {
-                    Dispatcher.Invoke(new Action(() => label_h3.Content = textbox_selected.Text));
-                }
-
-
-
-            }
-
-        }
     }
 }

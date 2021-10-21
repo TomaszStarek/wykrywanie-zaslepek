@@ -24,33 +24,6 @@
         <TextBox x:Name="textBox" Margin="32,0,128,20" Text="" TextWrapping="Wrap" d:LayoutOverrides="HorizontalAlignment" Grid.Row="0" VerticalAlignment="Bottom" Height="41" KeyDown="OnKeyDownHandler" FontSize="20"/>
         <Label x:Name="label_state" Content="1.Zeskanuj produkt" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="107" Width="472" FontSize="30"/>
 
-        <TextBox x:Name="low1" Grid.Column="1" Margin="33,68,478,77" Grid.Row="2" Text="0" TextWrapping="Wrap" TextChanged="low1_TextChanged" KeyDown="param_KeyDown"/>
-        <TextBox x:Name="low2" Grid.Column="1" Margin="176,68,335,77" Grid.Row="2" Text="163" TextWrapping="Wrap" KeyDown="param_KeyDown"/>
-        <TextBox x:Name="low3" Grid.Column="1" Margin="300,68,211,77" Grid.Row="2" Text="94" TextWrapping="Wrap" RenderTransformOrigin="1.793,0.704" TextChanged="low1_TextChanged" KeyDown="param_KeyDown"/>
-
-        <TextBox x:Name="high1" Grid.Column="1" Margin="33,106,479,8" Grid.Row="2" Text="160" TextWrapping="Wrap" VerticalAlignment="Bottom" KeyDown="param_KeyDown"/>
-        <TextBox x:Name="high2" Grid.Column="1" Margin="176,107,335,7" Grid.Row="2" Text="255" TextWrapping="Wrap" VerticalAlignment="Bottom" KeyDown="param_KeyDown"/>
-        <TextBox x:Name="high3" Grid.Column="1" Margin="300,107,211,7" Grid.Row="2" Text="242" TextWrapping="Wrap" VerticalAlignment="Bottom" KeyDown="param_KeyDown"/>
-
-
-        <Label x:Name="l_n_parametry" Content="Parametry filtru barwy: " Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Top" Width="600"/>
-
-        <Label x:Name="l_n_low1" Content="H low: " Grid.Column="1" Margin="13,39,0,0" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <Label x:Name="l_n_low2" Content="S low:" Grid.Column="1" Margin="161,39,0,0" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <Label x:Name="l_n_low3" Content="V low:" Grid.Column="1" Margin="286,39,0,0" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Top" />
-
-        <Label x:Name="l_n_h1" Content="H high: " Grid.Column="1" Margin="10,109,0,0" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30"/>
-        <Label x:Name="l_n_h2" Content="S high:" Grid.Column="1" Margin="161,109,0,0" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30"/>
-        <Label x:Name="l_n_h3" Content="V high:" Grid.Column="1" Margin="0,109,0,0" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Top" Height="30" />
-
-        <Label x:Name="label_low1" Content="1" Grid.Column="1" Margin="77,31,479,107" Grid.Row="2" VerticalAlignment="Bottom"/>
-        <Label x:Name="label_low2" Content="1" Grid.Column="1" Margin="224,31,338,106" Grid.Row="2" Width="38" VerticalAlignment="Bottom"/>
-        <Label x:Name="label_low3" Content="1" Grid.Column="1" Margin="344,31,212,107" Grid.Row="2" VerticalAlignment="Bottom"/>
-
-        <Label x:Name="label_h1" Content="11" Grid.Column="1" Margin="78,109,0,30" Grid.Row="2" HorizontalAlignment="Left" Width="43"/>
-        <Label x:Name="label_h2" Content="11" Grid.Column="1" Margin="222,109,0,27" Grid.Row="2" HorizontalAlignment="Left" Width="43"/>
-        <Label x:Name="label_h3" Content="11" Grid.Column="1" Margin="347,109,0,30" Grid.Row="2" HorizontalAlignment="Left" Width="42"/>
-
 
 
     </Grid>

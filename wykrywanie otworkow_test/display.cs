@@ -13,6 +13,16 @@ namespace wykrywanie_otworkow_test
     class display
     {
 
+        public static double dp = 1;
+        public static double minDist = 50;
+        public static double param1 = 39;  //37
+        public static double param2 = 31;  //29
+        public static int minRadius = 13;
+        public static int maxRadius = 19;
+        public static double lower_H = 0, lower_S = 155, lower_V = 94;
+        public static double high_H = 160, high_S = 255, high_V = 242;
+
+
         public static double labelparam_convert(object sender)
         {
             Label control = (Label)sender;
@@ -25,8 +35,6 @@ namespace wykrywanie_otworkow_test
             {
                 ;
             }
-
-
             return result;
         }
     }
