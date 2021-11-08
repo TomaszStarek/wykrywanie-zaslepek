@@ -1,0 +1,13 @@
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFEA991B" Offset="0.231"/>
+                    <GradientStop Color="Red" Offset="0.108"/>
+                    <GradientStop Color="#FF5A0A90" Offset="0.861"/>
+                    <GradientStop Color="#FF9C10D6" Offset="0.941"/>
+                    <GradientStop Color="#FFFDF600" Offset="0.355"/>
+                    <GradientStop Color="#FF6EEA65" Offset="0.565"/>
+                    <GradientStop Color="#FF0DBDF3" Offset="0.738"/>
+                    <GradientStop Color="#FF0DBDF3" Offset="0.698"/>
+                    <GradientStop Color="#FF6EEA65" Offset="0.525"/>
+                </LinearGradientBrush>
+            </Button.Background>

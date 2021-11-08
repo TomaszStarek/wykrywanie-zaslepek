@@ -8,21 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="benek.jpg" />
-    <None Remove="beniek2.jpg" />
-    <None Remove="kunta kinte.jpg" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Emgu.CV" Version="4.5.3.4721" />
     <PackageReference Include="Emgu.CV.Bitmap" Version="4.5.3.4721" />
     <PackageReference Include="Emgu.CV.runtime.windows" Version="4.5.3.4721" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="benek.jpg" />
-    <Resource Include="beniek2.jpg" />
-    <Resource Include="kunta kinte.jpg" />
   </ItemGroup>
 
 </Project>

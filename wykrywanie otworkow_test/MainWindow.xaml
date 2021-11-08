@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wykrywanie_otworkow_test"
         mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
         Title="MainWindow" Height="750" Width="1200">
-    <Grid Loaded="Grid_Loaded">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="White" Offset="0.478"/>
+            <GradientStop Color="#FFE6F0F9" Offset="0.688"/>
+            <GradientStop Color="#FFF8F1FA" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="3*"/>
@@ -16,9 +24,18 @@
             <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="button" Content="Button" Margin="468,0,0,0" Width="132" Click="button_Click" Grid.Row="2" HorizontalAlignment="Left"/>
+        <Button x:Name="button" Content="Button" Margin="468,0,0,0" Width="132" Click="button_Click" Grid.Row="2" HorizontalAlignment="Left" Visibility="Hidden"/>
         <Image x:Name="image_capture" Margin="1,1,1,1" d:LayoutOverrides="HorizontalAlignment" Grid.Column="1"  Grid.Row="1"  />
-        <Button x:Name="btn_parametry" Content="Parametry" Click="btn_stream_Click" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center" Height="51" Width="105" Background="#FFEC1717"/>
+        <Button x:Name="btn_parametry" Content="Parametry" Click="btn_stream_Click" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center" Height="51" Width="105" Margin="-2,0,0,0" FontSize="16">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFACCBE7" Offset="1"/>
+                    <GradientStop Color="#FF89C2E5" Offset="0.654"/>
+                    <GradientStop Color="#FFE8F2F7" Offset="0"/>
+                </LinearGradientBrush>
+            </Button.Background>
+
+        </Button>
         <Image x:Name="image_stream" Margin="1,1,1,1" Grid.ColumnSpan="1" Grid.Row="1"/>
         <Label x:Name="Podaj_barkode" Content="Zeskanuj numer seryjny" Grid.Row="0" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="34,26,0,0" Width="342" FontSize="24" />
         <TextBox x:Name="textBox" Margin="32,0,128,20" Text="" TextWrapping="Wrap" d:LayoutOverrides="HorizontalAlignment" Grid.Row="0" VerticalAlignment="Bottom" Height="41" KeyDown="OnKeyDownHandler" FontSize="20"/>
@@ -26,7 +43,6 @@
         <Label x:Name="label" Content="Timer" Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Visibility="Hidden"/>
         <Label x:Name="l_n_wykryto_lewa" Content="Wykryto lewą zaślepkę" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Center" FontSize="18" Background="#FF86EE30" Visibility="Hidden"/>
         <Label x:Name="l_n_wykryto_prawa" Content="Wykryto prawą zaślepkę" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" FontSize="18" Margin="0,0,5,0" d:LayoutOverrides="Width" HorizontalAlignment="Right" Background="#FF86EE30" Visibility="Hidden"/>
-
 
 
     </Grid>
