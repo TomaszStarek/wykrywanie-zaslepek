@@ -1,0 +1,118 @@
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\wykrywanie otworkow_test.exe
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\wykrywanie otworkow_test.deps.json
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\wykrywanie otworkow_test.runtimeconfig.json
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\wykrywanie otworkow_test.runtimeconfig.dev.json
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\wykrywanie otworkow_test.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\wykrywanie otworkow_test.pdb
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\Emgu.CV.Platform.NetStandard.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\Emgu.CV.Bitmap.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\cvextern.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\opencv_videoio_ffmpeg453_64.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\cvextern.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\opencv_videoio_ffmpeg453.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\concrt140.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcp140.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcp140_1.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcp140_2.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcp140_atomic_wait.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcp140_codecvt_ids.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\vcruntime140.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\vcruntime140_1.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\concrt140.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\msvcp140.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\msvcp140_1.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\msvcp140_2.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\msvcp140_atomic_wait.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\msvcp140_codecvt_ids.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\vcruntime140.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test.csproj.AssemblyReference.cache
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\Window1.g.cs
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test_MarkupCompile.cache
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test_MarkupCompile.lref
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\Window1.baml
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test.g.resources
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test.AssemblyInfoInputs.cache
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test.AssemblyInfo.cs
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test.csproj.CoreCompileInputs.cache
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test.csproj.CopyComplete
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test.pdb
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test.genruntimeconfig.cache
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\System.Net.Http.WinHttpHandler.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\System.ServiceModel.Duplex.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\System.ServiceModel.Http.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\System.ServiceModel.NetTcp.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\System.ServiceModel.Primitives.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\System.ServiceModel.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\System.ServiceModel.Security.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Net.Http.WinHttpHandler.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS3\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win7\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\wykrywanie otworkow_test.exe
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\wykrywanie otworkow_test.deps.json
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\wykrywanie otworkow_test.runtimeconfig.json
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\wykrywanie otworkow_test.runtimeconfig.dev.json
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\wykrywanie otworkow_test.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\wykrywanie otworkow_test.pdb
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\Emgu.CV.Platform.NetStandard.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\Emgu.CV.Bitmap.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\System.Net.Http.WinHttpHandler.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\System.ServiceModel.Duplex.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\System.ServiceModel.Http.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\System.ServiceModel.NetTcp.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\System.ServiceModel.Primitives.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\System.ServiceModel.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\System.ServiceModel.Security.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\cvextern.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\opencv_videoio_ffmpeg453_64.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\cvextern.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\opencv_videoio_ffmpeg453.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\concrt140.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcp140.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcp140_1.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcp140_2.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcp140_atomic_wait.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcp140_codecvt_ids.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\vcruntime140.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\vcruntime140_1.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\concrt140.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\msvcp140.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\msvcp140_1.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\msvcp140_2.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\msvcp140_atomic_wait.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\msvcp140_codecvt_ids.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\vcruntime140.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Net.Http.WinHttpHandler.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\bin\Debug\netcoreapp3.1\runtimes\win7\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test.csproj.AssemblyReference.cache
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\Window1.g.cs
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test_MarkupCompile.cache
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test_MarkupCompile.lref
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\Window1.baml
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test.g.resources
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test.AssemblyInfoInputs.cache
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test.AssemblyInfo.cs
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test.csproj.CoreCompileInputs.cache
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test.csproj.CopyComplete
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test.dll
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test.pdb
+C:\Users\2281209\source\repos\wykrywanie otworkow_test - MESTIS4\wykrywanie otworkow_test\obj\Debug\netcoreapp3.1\wykrywanie otworkow_test.genruntimeconfig.cache

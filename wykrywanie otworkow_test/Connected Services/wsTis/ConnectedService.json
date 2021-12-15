@@ -1,0 +1,30 @@
+﻿{
+  "ProviderId": "Microsoft.VisualStudio.ConnectedService.Wcf",
+  "Version": "15.0.40203.910",
+  "GettingStartedDocument": {
+    "Uri": "https://go.microsoft.com/fwlink/?linkid=858517"
+  },
+  "ExtendedData": {
+    "inputs": [
+      "http://plkwim0cmp12/MES-TIS/TIS.asmx"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, wsTis"
+    ],
+    "references": [
+      "Emgu.CV.Bitmap, {Emgu.CV.Bitmap, 4.5.3.4721}",
+      "Emgu.CV.Platform.NetStandard, {Emgu.CV, 4.5.3.4721}",
+      "System.Drawing.Common, {System.Drawing.Common, 5.0.2}",
+      "System.Drawing.Primitives, {System.Drawing.Primitives, 4.3.0}",
+      "System.Runtime, {System.Runtime, 4.3.1}",
+      "System.Runtime.InteropServices.RuntimeInformation, {System.Runtime.InteropServices.RuntimeInformation, 4.3.0}"
+    ],
+    "sync": true,
+    "targetFramework": "netcoreapp3.1",
+    "typeReuseMode": "All"
+  }
+}

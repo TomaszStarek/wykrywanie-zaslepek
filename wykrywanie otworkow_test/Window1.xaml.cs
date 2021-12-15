@@ -163,7 +163,7 @@ namespace wykrywanie_otworkow_test
         {
             if (_passw_save)
             {
-                save.Save_param();
+                Save.Save_param();
                 MessageBox.Show("Zapisano!");
             }              
             else

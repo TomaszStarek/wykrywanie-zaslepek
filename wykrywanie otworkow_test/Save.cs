@@ -11,14 +11,14 @@ using System.Windows.Media.Imaging;
 
 namespace wykrywanie_otworkow_test
 {
-    class save
+    class Save
     {
-        void SaveToBmp(FrameworkElement visual, string fileName)
+        public void SaveToBmp(FrameworkElement visual, string fileName)
         {
             var encoder = new BmpBitmapEncoder();
             SaveUsingEncoder(visual, fileName, encoder);
         }
-        void SaveToPng(FrameworkElement visual, string fileName)
+        public void SaveToPng(FrameworkElement visual, string fileName)
         {
             var encoder = new PngBitmapEncoder();
             SaveUsingEncoder(visual, fileName, encoder);
@@ -67,7 +67,44 @@ namespace wykrywanie_otworkow_test
             }
         }
 
+        public static async Task SendLogMesTisAsync(string serial)
+        {
+            DateTime stop = DateTime.Now;
 
+            wsTis.MES_TISSoapClient ws = new wsTis.MES_TISSoapClient(wsTis.MES_TISSoapClient.EndpointConfiguration.MES_TISSoap);
+            try
+            {
+                
+                //var res = await ws.GetVersionAsync();
+                //string ver = res.Body.GetVersionResult;
+
+                StringBuilder sb = new StringBuilder();
+                sb.Append("S" + serial + "\n");
+                sb.Append("CITRON" + "\n");
+                sb.Append("NPLKWIM0P25B2SQ1" + "\n");
+                sb.Append("PQC_CAP" + "\n");
+                sb.Append("Ooperator" + "\n");
+                sb.Append("TP" + "\n");
+                sb.Append("[" + stop.ToString("yyyy-MM-dd HH:mm:ss") + "\n");
+                sb.Append("]" + stop.ToString("yyyy-MM-dd HH:mm:ss") + "\n");
+
+                var res = await ws.ProcessTestDataAsync(sb.ToString(), "Generic");
+
+                if (res != null && res.Body.ProcessTestDataResult.ToString().ToUpper() != "PASS")
+                {
+                    SaveLog(serial);
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                await ws.CloseAsync();
+            }
+
+        }
 
         public static void SaveLog(string serial)
         {
@@ -84,7 +121,6 @@ namespace wykrywanie_otworkow_test
 
             using (StreamWriter sw = new StreamWriter("C:/tars/" + serial + "-" + "(" + stop.Day + "-" + stop.Month + "-" + stop.Year + " " + stop.Hour + "-" + stop.Minute + "-" + stop.Second + ")" + ".Tars"))
             {
-
 
                 sw.WriteLine("S{0}", serial);
                 sw.WriteLine("CITRON");
@@ -118,8 +154,6 @@ namespace wykrywanie_otworkow_test
                 MessageBox.Show(iox.Message);
             }
         }
-
-
 
         public static void Save_param()
         {
@@ -155,7 +189,6 @@ namespace wykrywanie_otworkow_test
             }
 
         }
-
         public static void Read_param()
         {
             string sciezka = (@"parametry.txt");
@@ -223,12 +256,8 @@ namespace wykrywanie_otworkow_test
                             default:
                                 break;
                         }
-                        //    arr[i].data_start = Convert.ToDateTime(sr.ReadLine());
-                        //   arr[i].flaga = bool.Parse(sr.ReadLine());
 
                         i++;
-                        //sw.WriteLine(arr[i].flaga);
-
 
 
 

@@ -59,7 +59,7 @@ namespace wykrywanie_otworkow_test {
             
             #line default
             #line hidden
-            System.Uri resourceLocater = new System.Uri("/wykrywanie otworkow_test;component/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/wykrywanie otworkow_test;V1.0.0.0;component/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

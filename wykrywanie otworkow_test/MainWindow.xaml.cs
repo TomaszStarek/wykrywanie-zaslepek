@@ -53,11 +53,11 @@ namespace wykrywanie_otworkow_test
             stream = new Stream();
             Dispatcher.Invoke(new Action(() => textBox.Focus()));
             Dispatcher.Invoke(new Action(() => textBox.SelectAll()));
-            save.Read_param();
+            Save.Read_param();
         }
 
 
-        //due to problem with update labels content from another class with bitmapimage/frezze()/dispose() issue, I've made it in the MainWindow class OnTimedEvent() method
+        //due to problem with update labels content from another class with bitmapimage/frezze()/dispose() issue, I've made it in the MainWindow.cs 
         public void OnTimedEvent(object source, ElapsedEventArgs e)
         {
             _manual_log_enabled = true;
@@ -72,7 +72,7 @@ namespace wykrywanie_otworkow_test
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            save.SaveToJpeg(image_capture, _barcode + ".jpg"); //C://tars//image.jpg            
+            Save.SaveToJpeg(image_capture, _barcode + ".jpg"); //C://tars//image.jpg            
         }
 
 
@@ -90,17 +90,19 @@ namespace wykrywanie_otworkow_test
             win1.Show();
         }
 
-        private void OnKeyDownHandler(object sender, KeyEventArgs e)
+        private async void OnKeyDownHandler(object sender, KeyEventArgs e)
         {
+
             if (e.Key == Key.Return)
             {
+                
                 if (_manual_log_enabled)
                 {
                     _manual_log_enabled = false;
                     _circle_detected[0] = _circle_detected[1] = false;
                     stream.stop_streaming();
-                    save.SaveToJpeg(image_capture, _barcode);
-                    save.SaveLog(_barcode);
+                    Save.SaveToJpeg(image_capture, _barcode);
+                    await Save.SendLogMesTisAsync(_barcode);
 
                     Dispatcher.Invoke(new Action(() => label_state.Content = "Nadano ręcznie loga, zeskanuj kolejną płytę"));
                     Dispatcher.Invoke(new Action(() => label_state.Background = System.Windows.Media.Brushes.LawnGreen));

@@ -36,7 +36,7 @@ namespace wykrywanie_otworkow_test
         }
 
 
-        public void Streaming(object sender, System.EventArgs e)
+        public async void Streaming(object sender, System.EventArgs e)
         {
 
             using (Image<Hsv, byte> frame = _capture.QueryFrame().ToImage<Hsv, byte>())
@@ -100,8 +100,8 @@ namespace wykrywanie_otworkow_test
                     MainWindow._myWindow._circle_detected[0] = MainWindow._myWindow._circle_detected[1] = false;
                     MainWindow._manual_log_enabled = false;
 
-                    save.SaveToJpeg(MainWindow._myWindow.image_capture, MainWindow._barcode);
-                    save.SaveLog(@MainWindow._barcode);
+                    Save.SaveToJpeg(MainWindow._myWindow.image_capture, MainWindow._barcode);
+                    await Save.SendLogMesTisAsync(@MainWindow._barcode);
 
                     MainWindow._myWindow.Dispatcher.Invoke(new Action(() => MainWindow._myWindow.label_state.Content = "TEST OK, zeskanuj kolejną płytę"));
                     MainWindow._myWindow.Dispatcher.Invoke(new Action(() => MainWindow._myWindow.label_state.Background = System.Windows.Media.Brushes.LawnGreen));

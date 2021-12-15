@@ -488,7 +488,7 @@ namespace wykrywanie_otworkow_test {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/wykrywanie otworkow_test;component/window1.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/wykrywanie otworkow_test;V1.0.0.0;component/window1.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Window1.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
